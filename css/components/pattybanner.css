@@ -1,0 +1,45 @@
+.pattybanner{
+	width: 100%;
+	height: auto;
+	background-color: #F7DEA5;
+	padding-top: 30px;
+}
+.pattybanner h1{
+	font-size: 40px;
+	color: #658D3D;
+}
+.patties {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	margin: 20px;
+}
+.patty{
+	flex-basis: 250px;
+	flex-grow: 1;
+	margin: 10px;
+	padding: 15px;
+}
+.pattyimg{
+	display: block;
+	width: 40%;
+	margin: auto;
+	height: auto;
+	border-radius: 50%
+}
+.vegan{
+	display: block;
+	margin: auto;
+	width: 15%;
+	padding-top: 5px;
+}
+.patty h3{
+	color: #435E29;
+}
+.patty p{
+	color: #658D3D;
+}
+div .patty:hover {
+	box-shadow:  0 1px 7px grey;
+	border-radius: 10%;
+}

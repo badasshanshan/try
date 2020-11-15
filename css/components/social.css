@@ -1,0 +1,20 @@
+.social-link{
+	right:0;
+	padding-right: 20px;
+	bottom:200px;
+	position: fixed;
+}
+.social-link ul{
+	list-style-type: none;
+	margin-right: 10px;
+
+}
+.social-link ul li{
+	margin-top: 20px;
+}
+span {
+	color: white;
+}
+span:hover{
+	color: #F04C5E;
+}
